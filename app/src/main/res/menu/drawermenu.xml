@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Home"
+        android:id = "@+id/nav_item_home"></item>
+
+    <item
+        android:title="Transactions"
+        android:id = "@+id/nav_item_transactions"></item>
+
+    <item
+        android:title="Debts"
+        android:id="@+id/nav_item_debts"></item>
+
+    <item
+        android:title="Budget"
+        android:id="@+id/nav_item_budget"></item>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:title="Share"
+                android:id = "@+id/nav_item_others"
+            ></item>
+
+            <item
+                android:title="Contact Us"
+                android:id = "@+id/nav_item_contactus"
+                ></item>
+
+        </menu>
+    </item>
+
+    <group android:id="@+id/group_settings_id">
+        <item android:title="Settings"></item>
+
+        <item android:title="Help"></item>
+    </group>
+</menu>

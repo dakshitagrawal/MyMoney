@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="16dp"
+    android:paddingTop="9dp"
+    android:paddingBottom="9dp"
+    >
+
+    <TextView
+        android:id="@+id/expenditureDetailItemDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="25dp"
+        android:typeface="serif"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:id="@+id/expenditureDetailItemLocation"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="21dp"
+        android:src="@drawable/location_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/expenditureDetailItemReciept"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="1dp"
+        android:src="@drawable/reciept_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/expenditureDetailItemCategory"
+        android:src="@drawable/expenditure_recycler_view_category_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/expenditureDetailItemReason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:textSize="20sp"
+        android:layout_marginLeft="25dp"
+        android:drawablePadding="10dp"
+        android:typeface="serif"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/expenditureDetailItemAmountSpent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:textSize="17sp"
+        android:typeface="serif"
+        android:textColor="@color/black"/>
+
+</FrameLayout>
